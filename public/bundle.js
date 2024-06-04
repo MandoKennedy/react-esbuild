@@ -23559,7 +23559,7 @@
   // src/App.jsx
   var import_react = __toESM(require_react(), 1);
   function App() {
-    return /* @__PURE__ */ import_react.default.createElement("div", null, "Hello World!");
+    return /* @__PURE__ */ import_react.default.createElement("div", null, "Hello World! This is React!");
   }
   var App_default = App;
 

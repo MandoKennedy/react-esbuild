@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "NODE_ENV=development node bootstrap.js",
-    "build": "NODE_ENV=production node server.js"
+    "start": "node bootstrap.js",
+    "build": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -14,14 +14,18 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
-  "devDependencies": {
+  "devDependencies": { 
     "@babel/plugin-transform-react-jsx": "^7.23.4",
     "@babel/register": "^7.23.7",
     "chokidar": "^3.6.0",
     "dotenv": "^16.4.5",
     "esbuild": "^0.20.2",
     "esbuild-plugin-jsx": "^1.0.1",
+    "esbuild-plugin-svgr": "^2.1.0",
+    "esbuild-sass-plugin": "^3.2.0",
     "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "styled-components": "^6.1.9",
     "ws": "^8.17.0"
   }
 }

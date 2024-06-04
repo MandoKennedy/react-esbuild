@@ -7,6 +7,6 @@ esbuild.build({
   outfile: 'dist/bundle.js',
   minify: true,
   sourcemap: true,
-  target: ['chrome58', 'firefox57', 'safari11', 'edge16'],
+  target: ['chrome120', 'firefox120', 'safari16', 'edge120'],
   plugins: [jsxPlugin()],
 }).catch(() => process.exit(1));
